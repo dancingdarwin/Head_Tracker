@@ -1,4 +1,6 @@
 *.code-workspace
 *.vscode
 *.onetoc2
+*.pyc
 Arduino/Build/
+**/__pycache__/
