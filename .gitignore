@@ -1,3 +1,4 @@
-/Headtracker_Workspace.code-workspace
-/.vscode
-/Open Notebook.onetoc2
+*.code-workspace
+*.vscode
+*.onetoc2
+
