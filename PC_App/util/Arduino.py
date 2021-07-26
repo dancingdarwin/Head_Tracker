@@ -11,7 +11,7 @@ class Arduino():
         self.baud = baud
         self.timeout = timeout
 
-        self.ports_avail = list_ports.comports()
+        self.ports_avail = list_ports.comports() 
         self.port = None
 
         self.streaming = False
@@ -77,4 +77,3 @@ class Arduino():
             data = np.array(data.split('\t')).astype(np.float)
             self.latest_position = data[0:3]
             self.latest_calib = data[3:]
-
